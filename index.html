@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What is Alive? — Class 10 Science Notes</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <button class="toggle-btn" id="theme-toggle">Dark Mode</button>
+  <div class="notes-content">
+
+    <div class="hero">
+      <h1>Topic: What is Alive? 🤔</h1>
+      <div class="subtitle">Class 10 Science — An Introduction</div>
+    </div>
+
+    <div class="intro">
+      How do we tell the difference between what is alive and what is not alive? Let's explore the characteristics that define life.
+    </div>
+
+    <div class="card-list">
+      <div class="example-card">
+        <div class="card-title"><span>1</span>Visible Movements as Evidence for Being Alive 👀</div>
+        <ul class="feature-list">
+          <li>Often, we think of some sort of movement as common evidence for being alive.</li>
+          <li><b>🏃‍♂️ In Animals & People:</b>
+            <ul class="sub-list">
+                <li>A dog running</li>
+                <li>A cow chewing <b>cud</b> (partly digested food that animals like cows bring back from their stomach to chew again)</li>
+                <li>A person shouting</li>
+                <li>Even when asleep, we see them breathing, which is a type of movement</li>
+            </ul>
+          </li>
+          <li><b>🌱 In Plants:</b>
+            <ul class="sub-list">
+                <li>They grow over time, which is a growth-related movement.</li>
+                <li>They are often green.</li>
+            </ul>
+          </li>
+          <li><b>⚠️ Limitation:</b>
+            <ul class="sub-list">
+                <li>Using only visible movement as the defining characteristic of life is not enough.</li>
+                <li>A plant can be alive without visibly growing.</li>
+                <li>Some animals can breathe with very little motion.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="example-card">
+        <div class="card-title"><span>2</span>The Invisible Movement Necessary for Life 🔬</div>
+        <ul class="feature-list">
+            <li>The true sign of life is movement on a very small scale, one that is invisible to the naked eye.</li>
+            <li>This is the constant movement of <b>molecules</b> (the tiny building blocks that make up everything).</li>
+            <li>Professional biologists agree that this invisible molecular movement is necessary for life.</li>
+        </ul>
+      </div>
+      
+      <div class="example-card">
+        <div class="card-title"><span>3</span>The Curious Case of Viruses 🦠</div>
+        <ul class="feature-list">
+          <li>Viruses are a puzzle.</li>
+          <li>They do not show any molecular movement on their own.</li>
+          <li>They only become active when they infect some cell.</li>
+          <li>This is why there is a <b>controversy</b> (a long-lasting scientific debate) about whether they are truly alive or not.</li>
+        </ul>
+      </div>
+
+      <div class="example-card">
+        <div class="card-title"><span>4</span>Why are Molecular Movements Needed for Life? ❤️</div>
+        <ul class="feature-list">
+          <li>This constant movement is all about keeping the organism's structure from breaking down.</li>
+          <li><b>🧬 Well-Organised Structures:</b>
+            <ul class="sub-list">
+                <li>Living organisms have highly organised structures:</li>
+                <li>Tissues → which are made of Cells → which have smaller components → all made of molecules.</li>
+            </ul>
+          </li>
+          <li><b>⚠️ The Threat of Breaking Down:</b>
+            <ul class="sub-list">
+                <li>Because of the effects of the environment, this organised, ordered nature of living structures is very likely to keep breaking down over time.</li>
+            </ul>
+          </li>
+           <li><b>🛠️ The Need for Maintenance:</b>
+            <ul class="sub-list">
+                <li>If this order breaks down, the organism will no longer be alive.</li>
+                <li>Therefore, living creatures must keep repairing and maintaining their structures.</li>
+                <li>Since these structures are made of molecules, they must move molecules around all the time.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    const htmlEl = document.documentElement;
+
+    toggleBtn.addEventListener('click', () => {
+      if (htmlEl.classList.contains('dark')) {
+        htmlEl.classList.remove('dark');
+        toggleBtn.textContent = 'Dark Mode';
+      } else {
+        htmlEl.classList.add('dark');
+        toggleBtn.textContent = 'Light Mode';
+      }
+    });
+  </script>
+</body>
+</html>
