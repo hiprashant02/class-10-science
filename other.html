@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Getting Oxygen — Class 10 Science Notes</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <button class="toggle-btn" id="theme-toggle">Dark Mode</button>
+  <div class="notes-content">
+
+    <div class="hero">
+      <h1>Topic: Getting Oxygen 😮‍💨</h1>
+    </div>
+
+    <div class="intro">
+      We know that aerobic respiration (respiration that uses oxygen) gives a lot more energy. Because this pathway depends on oxygen, aerobic organisms need to make sure that there is a sufficient intake of oxygen. Let's see how different living things get their oxygen.
+    </div>
+
+    <div class="card-list">
+      <div class="example-card">
+        <div class="card-title"><span>1</span>How do Plants get Oxygen? 🌱</div>
+        <ul class="feature-list">
+          <li>We have seen that plants exchange gases through <b>stomata</b> (the tiny pores on leaves).</li>
+          <li>They also have large <b>inter-cellular spaces</b> (spaces between the cells).</li>
+          <li>These two things ensure that all cells are in contact with air.</li>
+          <li>Carbon dioxide (CO₂) and oxygen (O₂) are exchanged by <b>diffusion</b> here.
+            <ul class="sub-list">
+                <li><b>Diffusion:</b> The movement of particles from an area of high concentration to an area of low concentration. Think of the smell of an agarbatti spreading across a room. Gases move in and out of plant cells in a similar way.</li>
+            </ul>
+          </li>
+          <li>The direction of diffusion depends on two things:
+            <ul class="sub-list">
+                <li>The environmental conditions.</li>
+                <li>The requirements of the plant.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="example-card">
+        <div class="card-title"><span>2</span>Gas Exchange: Night 🌃 vs. Day ☀️</div>
+        <ul class="feature-list">
+            <li><b>At night:</b>
+                <ul class="sub-list">
+                    <li>There is no photosynthesis happening.</li>
+                    <li>So, CO₂ elimination is the major exchange activity going on. (Plants release CO₂ just like us).</li>
+                </ul>
+            </li>
+            <li><b>During the day:</b>
+                 <ul class="sub-list">
+                    <li>The CO₂ generated during respiration is used up for photosynthesis.</li>
+                    <li>So, there is no CO₂ release.</li>
+                    <li>Instead, oxygen release is the major event at this time. (Plants release the oxygen made during photosynthesis).</li>
+                </ul>
+            </li>
+        </ul>
+      </div>
+      
+      <div class="example-card">
+        <div class="card-title"><span>3</span>How do Animals get Oxygen? 🐠🐒</div>
+        <ul class="feature-list">
+            <li>Animals have evolved different organs for the uptake of oxygen from the environment and for getting rid of the carbon dioxide produced.</li>
+            <li><b>1. Terrestrial Animals (Land Animals) 🐅</b>
+                <ul class="sub-list">
+                    <li><b>Terrestrial animals</b> (animals that live on land) can breathe the oxygen in the atmosphere.</li>
+                </ul>
+            </li>
+            <li><b>2. Aquatic Animals (Water Animals) 🐟</b>
+                <ul class="sub-list">
+                    <li><b>Aquatic animals</b> (animals that live in water) need to use the oxygen dissolved in water.</li>
+                </ul>
+            </li>
+            <li><b>😟 The Challenge for Aquatic Animals:</b>
+                <ul class="sub-list">
+                    <li>The amount of dissolved oxygen in water is fairly low compared to the amount of oxygen in the air.</li>
+                    <li>Because of this, the rate of breathing in aquatic organisms is much faster than that seen in terrestrial organisms.</li>
+                    <li><b>How Fishes Breathe:</b> Fishes take in water through their mouths and force it past the <b>gills</b>, where the dissolved oxygen is taken up by blood.</li>
+                </ul>
+            </li>
+        </ul>
+      </div>
+
+      <div class="example-card">
+        <div class="card-title"><span>4</span>How Terrestrial Animals Breathe 🌬️</div>
+        <ul class="feature-list">
+            <li>Terrestrial organisms use the oxygen in the atmosphere for respiration. This oxygen is absorbed by different organs in different animals (for example, we have lungs).</li>
+            <li><b>All these respiratory organs have common features:</b>
+                <ul class="sub-list">
+                    <li>They have a structure that increases the <b>surface area</b> which is in contact with the oxygen-rich atmosphere. (More surface area = more oxygen can be absorbed).</li>
+                    <li>This surface is very fine and delicate.</li>
+                    <li>To protect this delicate surface, it is usually placed within the body.</li>
+                    <li>Because it's inside, there have to be passages that will take air to this area (like our windpipe).</li>
+                    <li>In addition, there is a mechanism for moving the air in and out of this area where the oxygen is absorbed (the process of breathing in and out).</li>
+                </ul>
+            </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    const htmlEl = document.documentElement;
+
+    toggleBtn.addEventListener('click', () => {
+      if (htmlEl.classList.contains('dark')) {
+        htmlEl.classList.remove('dark');
+        toggleBtn.textContent = 'Dark Mode';
+      } else {
+        htmlEl.classList.add('dark');
+        toggleBtn.textContent = 'Light Mode';
+      }
+    });
+  </script>
+</body>
+</html>
